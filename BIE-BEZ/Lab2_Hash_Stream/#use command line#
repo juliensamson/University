@@ -1,0 +1,5 @@
+mkdir name
+cd name
+gcc -Wall namefile.c -lcrypto -o name --> compile the file
+./hash --> run the exec
+make

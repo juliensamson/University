@@ -1,0 +1,8 @@
+mkdir name
+cd name
+gcc -Wall namefile.c -lcrypto -o name --> compile the file
+./hash --> run the exec
+make run --> to run the file
+MAKEFILE
+target:dependency
+	command
