@@ -1,0 +1,23 @@
+﻿La génération a démarré 2018-04-08 15:34:53.
+Projet "C:\Users\Julien\Documents\Visual Studio 2015\Projects\Elliptic\Elliptic\Elliptic.vcxproj" sur le nœud 2 (Build cible(s)).
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt elliptic.c
+  elliptic.c
+c:\users\julien\documents\visual studio 2015\projects\elliptic\elliptic\elliptic.c(21): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\julien\documents\visual studio 2015\projects\elliptic\elliptic\elliptic.c(149): warning C4047: 'return' : les niveaux d'indirection de 'uint8_t' et de 'uint8_t *' sont différents
+c:\users\julien\documents\visual studio 2015\projects\elliptic\elliptic\elliptic.c(155): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\julien\documents\visual studio 2015\projects\elliptic\elliptic\elliptic.c(169): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\julien\documents\visual studio 2015\projects\elliptic\elliptic\elliptic.c(446): warning C4244: '=' : conversion de 'uint16_t' en 'uint8_t', perte possible de données
+c:\users\julien\documents\visual studio 2015\projects\elliptic\elliptic\elliptic.c(496): warning C4101: 'temp_a' : variable locale non référencée
+c:\users\julien\documents\visual studio 2015\projects\elliptic\elliptic\elliptic.c(576): warning C4047: 'fonction' : les niveaux d'indirection de 'uint8_t *' et de 'int' sont différents
+c:\users\julien\documents\visual studio 2015\projects\elliptic\elliptic\elliptic.c(576): warning C4024: 'multiplication' : types différents pour le paramètre formel et réel 3
+c:\users\julien\documents\visual studio 2015\projects\elliptic\elliptic\elliptic.c(571): warning C4101: 'temp_inv' : variable locale non référencée
+c:\users\julien\documents\visual studio 2015\projects\elliptic\elliptic\elliptic.c(68): warning C4715: 'table_value' : les chemins de contrôle ne retournent pas tous une valeur
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Julien\Documents\Visual Studio 2015\Projects\Elliptic\Debug\Elliptic.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Julien\Documents\Visual Studio 2015\Projects\Elliptic\Debug\Elliptic.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Julien\Documents\Visual Studio 2015\Projects\Elliptic\Debug\Elliptic.lib" /MACHINE:X86 Debug\elliptic.obj
+  Elliptic.vcxproj -> C:\Users\Julien\Documents\Visual Studio 2015\Projects\Elliptic\Debug\Elliptic.exe
+Génération du projet "C:\Users\Julien\Documents\Visual Studio 2015\Projects\Elliptic\Elliptic\Elliptic.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:01.75
