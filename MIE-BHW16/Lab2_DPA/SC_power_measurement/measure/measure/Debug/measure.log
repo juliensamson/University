@@ -1,0 +1,20 @@
+﻿Build started 21.3.2018 13:09:58.
+     1>Project "\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\s\samsojul\Documents\COURSE - Hardware and security\Lab 2 - DPA\SC_power_measurement\measure\measure\measure.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\measure.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug\measure.unsuccessfulbuild".
+         Touching "Debug\measure.lastbuildstate".
+     1>Done Building Project "\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\s\samsojul\Documents\COURSE - Hardware and security\Lab 2 - DPA\SC_power_measurement\measure\measure\measure.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.10
