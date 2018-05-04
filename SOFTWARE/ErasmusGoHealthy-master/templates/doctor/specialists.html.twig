@@ -1,0 +1,36 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Specialists{% endblock %}
+
+{% block body %}
+    <h1>Specialists available</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Specialization</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for doctor in doctors %}
+            <tr>
+                <td>{{ doctor.name }}</td>
+                <td>{{ doctor.surname }}</td>
+                <td>{{ doctor.specialization }}</td>
+                <td>
+                    <a href="{{ path('appointment_new', {'doctorid': doctor.doctorid }) }}">request for appointment</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="5">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('default') }}">Back to main page</a>
+{% endblock %}

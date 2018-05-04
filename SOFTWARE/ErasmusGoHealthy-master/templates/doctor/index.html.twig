@@ -1,0 +1,39 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Doctor index{% endblock %}
+
+{% block body %}
+    <h1>Doctor index</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Doctorid</th>
+                <th>Specialization</th>
+                <th>Personid</th>
+                <th>Workscheduleid</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for doctor in doctors %}
+            <tr>
+                <td>{{ doctor.doctorid }}</td>
+                <td>{{ doctor.specialization }}</td>
+                <td>{{ doctor.personid }}</td>
+                <td>{{ doctor.workscheduleid }}</td>
+                <td>
+                    <a href="{{ path('doctor_show', {'doctorid': doctor.doctorid}) }}">show</a>
+                    <a href="{{ path('doctor_edit', {'doctorid': doctor.doctorid}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="5">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('doctor_new') }}">Create new</a>
+{% endblock %}

@@ -1,0 +1,10 @@
+SegaSonic the Hedgehog is an isometric platform game developed
+and published by Sega. An arcade game in the Sonic the Hedgehog
+series, it follows Sonic the Hedgehog and his friends Mighty
+the Armadillo and Ray the Flying Squirrel, who must escape an
+island after they are kidnapped by series antagonist Doctor Eggman.
+Players use a trackball to move the characters and escape the island
+as quickly as possible while dodging obstacles and collecting rings.
+The game was developed by Sega's arcade division, Sega AM3;
+it was designed to recapture the spirit of the Sega Genesis
+Sonic games and was inspired by the 1984 game Marble Madness.

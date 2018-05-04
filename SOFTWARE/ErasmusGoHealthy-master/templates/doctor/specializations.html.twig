@@ -1,0 +1,32 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Specialists{% endblock %}
+
+{% block body %}
+    <h1>Specialists available</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Specializations</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for doctor in doctors %}
+            <tr>
+                <td>{{ doctor.specialization }}</td>
+                <td>
+                    <a href="{{ path('specialists', {'specialization': doctor.specialization}) }}">show doctors</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="5">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('default') }}">Back to main page</a>
+{% endblock %}
